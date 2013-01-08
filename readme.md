@@ -11,4 +11,6 @@ In maven:
 mvn clean install
 ```
 
+## Container Usage
+To use in an OC4J container, add ```-Doc4j.jmx.security.proxy.off=true``` to java options.
 
