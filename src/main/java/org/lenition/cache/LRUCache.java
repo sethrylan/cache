@@ -6,7 +6,8 @@ import org.apache.commons.collections.map.LRUMap;
 
 /**
  * Wrapper for Apache Commons LRUMap
- * @author gaineys
+ * Adapted from Corey Hulen's in-memory cache
+ * @link http://coreyhulen.wordpress.com/2010/04/23/java-in-memory-cache/
  * @param <K> key object type
  * @param <V> value object type
  */
